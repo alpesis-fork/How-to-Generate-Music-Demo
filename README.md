@@ -1,6 +1,14 @@
 # How-to-Generate-Music-Demo
 This is the code for "How to Generate Music - Intro to Deep Learning #9' by Siraj Raval on YouTube
 
+```
+# install miniconda
+$ conda env create -f=./env.yml
+# conda env update -f=./env.yml
+$ source activate musicdnn
+$ python generator.py
+```
+
 ##Overview
 
 This is the code for [this]() video on Youtube by Siraj Raval as part of the the Udacity Deep Learning Nanodegree. It uses Keras & Theano, two deep learning libraries, to generate jazz music. Specifically, it builds a two-layer LSTM, learning from the given MIDI file. 
